@@ -50,3 +50,29 @@ nav a {
   color: #F5D6AB;
   padding: 70px;
 }
+
+.about {
+  height: 800pxpx;
+}
+
+.picture img {
+  width: 500px;
+  height: 500px;
+  padding: 70px;
+}
+
+.about h3 {
+  color: black;
+  line-height: 29px;
+  font-size: 24px;
+  padding: 70px;
+}
+
+.about-hero {
+  display: flex;
+}
+.about-descript {
+  width: 500px;
+  height: 500px;
+  padding: 70px;
+}
