@@ -8,6 +8,7 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -106,4 +107,75 @@ nav a {
 }
 .skill:hover img {
   opacity: 0.5;
+}
+
+.portfolio-container {
+  height: 822px;
+  width: 1440px;
+}
+
+.portfolio-container h3 {
+  font-weight: bolder;
+  padding-left: 163px;
+  padding-top: 93px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.project-name {
+  padding-left: 166px;
+  padding-top: 208px;
+  font-size: 18px;
+}
+
+.project-info {
+  padding-left: 166px;
+  padding-top: 48px;
+  width: 349px;
+  height: 137px;
+}
+
+.project-pics {
+  width: 635px;
+  height: 403px;
+  position: relative;
+  top: -80px;
+  left: 640px;
+  background-color: #FFFAF2;
+
+}
+
+.pic-1 img {
+  width: 300px;
+  height: 144px;
+  object-fit: cover;
+}
+
+.pic-2 img{
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.pic-3 img {
+  width: 330px;
+  height: 241px;
+  object-fit: cover;
+}
+
+.pic-3 {
+  position: relative;
+  left: 305px;
+  top: -402px;
+}
+
+.pic-4 {
+  position: relative;
+  left:305px ;
+  top: -400px;
+}
+
+.pic-4 img {
+  width: 330px;
+  height: 151px;
 }
