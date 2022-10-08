@@ -110,7 +110,7 @@ nav a {
 }
 
 .portfolio-container {
-  height: 822px;
+  height: 1000px;
   width: 1440px;
 }
 
@@ -143,6 +143,14 @@ nav a {
   left: 640px;
   background-color: #FFFAF2;
 
+}
+.project-pics img {
+  transition: .3s;
+}
+
+.project-pics img:hover {
+  opacity: .6;
+  transform: scale(1.03);
 }
 
 .pic-1 img {
@@ -189,14 +197,17 @@ nav a {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
+  transition: transform .2s;
 }
 .buttons a:hover {
   background-color: #ddd;
   color: black;
+  transform: scale(1.5);
 }
 .previous{
   background-color: #f1f1f1;
   color: black;
+  padding-right: 20px;
 }
 .next {
   background-color: #04AA6D;
@@ -205,4 +216,40 @@ nav a {
 
 .round{
   border-radius: 50%;
+}
+
+.contact-container {
+  width: 1440px;
+  height: 528px;
+  background-color: #FFFAF2;
+}
+
+.contact-container h3 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: bolder;
+  padding-left: 165px;
+  padding-top: 93px;
+}
+.socials {
+  padding-left: 165px;
+  padding-top: 100px;
+}
+.socials a {
+  padding-right: 25px;
+}
+
+.socials img {
+  width: 50px;
+  height: 50px;
+  transition: transform .2s;
+}
+
+.socials img:hover {
+  transform: scale(1.5);
+  opacity: 0.6;
+}
+
+.socials h2 {
+  padding-top: 30px;
 }
